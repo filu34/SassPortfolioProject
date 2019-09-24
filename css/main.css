@@ -21,7 +21,7 @@
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  border-bottom: 2px solid #272727;
+  border-bottom: 2px solid white;
 }
 
 .home_name-last {
@@ -47,7 +47,7 @@
   top: 0.5rem;
   width: 28px;
   height: 3px;
-  background: #272727;
+  background: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -58,7 +58,7 @@
   top: -8px;
   width: 28px;
   height: 3px;
-  background: #272727;
+  background: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -69,7 +69,7 @@
   top: 8px;
   width: 22px;
   height: 3px;
-  background: #272727;
+  background: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -186,7 +186,7 @@
 
 body {
   background: #272727;
-  color: #272727;
+  color: white;
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
@@ -197,7 +197,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: #272727;
+  color: white;
   text-decoration: none;
 }
 
@@ -236,6 +236,6 @@ footer {
   right: 1rem;
   text-align: right;
   padding: 1rem;
-  color: #272727;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
