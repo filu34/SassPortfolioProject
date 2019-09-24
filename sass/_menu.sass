@@ -57,9 +57,9 @@
     &.open
         visibility: visible
     
-    .menu_nav
+    .menu-nav
         display: flex
-        flexflow: column word-wrap
+        flex-flow: column wrap
         align-items: center
         justify-content: center
         height: 100vh
@@ -72,3 +72,27 @@
 
         &.open
             transform: translateY(0)
+        
+        &_item
+            transform: translateX(100vw)
+            +transition-ease
+
+            &.open
+                transform: translateX(0)
+
+            &.active > a 
+                color: $secondary-color
+        &_link
+            display: inline-block
+            font-size: 2rem
+            text-transform: uppercase
+            padding: 2rem 0
+            font-weight: 300
+            +transition-ease
+
+            &:hover
+                color: $secondary-color
+
+@for $i from 1 through 4
+    .menu-nav_item:nth-child(#{$i})
+        transition-delay: ($i * 0.1s) + 0.15s
